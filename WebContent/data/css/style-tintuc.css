@@ -1,0 +1,27 @@
+#contents {
+	width: 100%;
+	min-height: 100%;
+	text-align: center;
+	float: left;
+}
+
+#contents p{
+	text-align: justify;
+	padding: 0px 100px 0px 100px;
+	font-size: 14px;
+}
+
+#contents h1 {
+	text-align: justify;
+	font-weight: bold;
+	font-size: 24px;
+	padding: 0px 50px 14px 50px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+#contents img {
+	width: 80%;
+	height: 60%;
+	margin-bottom: 20px;
+}

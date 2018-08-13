@@ -1,0 +1,337 @@
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+#main {
+	font-family: Tahoma;
+}
+
+.showCase {
+	/*background: lightblue;*/
+	text-transform: uppercase;
+	padding: 1px 0px 30px 0px;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #dfdfdf;
+	border-top: 1px solid #dfdfdf;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.showCase .sts-bold {
+	padding: 10px 14px;
+	background-color: #1d5268;
+	color: white;
+	cursor: pointer;
+}
+
+.showCase .sts-empty {
+	background: white;
+	padding: 6px 8px;
+	border: 2px solid #1d5268;
+	margin-left: -4px;
+	border-left: 0;
+	cursor: pointer;
+}
+
+/* Bên Trái Main*/
+.boxSanPham {
+	background: white;
+	width: 191px;
+	height: 295px;
+	margin: 3px 2px 3px 2px;
+	border: 1px solid #dfdfdf;
+	float: left;
+}
+
+.boxSanPham a {
+	text-decoration: none;
+}
+
+.boxSanPham a:hover {
+	text-decoration: none;
+}
+
+.boxSanPham a h3:hover {
+	color: blue;
+	text-decoration: none;
+}
+
+.boxSanPham a h3 {
+	font-weight: bold;
+	font-size: 13px;
+	color: #333;
+	text-align: center;
+}
+
+.boxSanPham a h5 {
+	font-weight: bold;
+	color: red;
+	font-size: 13px;
+	margin-top: -2px;
+	text-align: center;
+}
+
+.boxSanPham .butMuaNgay {
+	background: -webkit-linear-gradient(top, #f59000, #fd6e1d);
+	width: 154px;
+	height: 40px;
+	border-radius: 7px;
+	font-weight: bold;
+	
+}
+
+.boxSanPham .btn-success {
+	border-color: #fd6e1d !important;
+}
+
+.boxSanPham .butMuaNgay:hover {
+	cursor: pointer;
+	background: #39dc79;
+	color: #000;
+	font-weight: bold;
+	border-color: #4cae4c !important;
+}
+
+.boxImageSP {
+	height: 200px;
+	width: 170px;
+	float: left;
+}
+
+.boxImageSP img {
+	max-height: 200px;
+	max-width: 170px;
+	padding: 15px 10px 10px 0px;
+	margin-left: 14px;
+	transition: all ease 300ms;
+}
+
+.boxImageSP img:hover {
+	padding: 8px 10px 10px 0px;
+}
+
+.boxBot {
+	background: white;
+	width: 100%;
+	border-radius: 7px;
+}
+
+.boxBot a {
+	text-decoration: none;
+	color: black;
+}
+
+.boxBot a:hover {
+	text-decoration: none;
+	color: blue;
+}
+
+.boxBot ul li:hover {
+	margin-left: 6px;
+}
+
+.boxBot ul li a:hover {
+	text-decoration: none;
+}
+
+.boxBot ul li {
+	width: 100%;
+	list-style: none;
+	border: 1px solid #dfdfdf;
+	border-radius: 7px;
+	margin-bottom: 7px;
+	float: left;
+	clear: left;
+	transition: all ease 300ms;
+}
+
+.boxBot ul li img {
+	width: 100px;
+	height: 57px;
+	margin-right: 5px;
+	border-radius: 7px;
+	float: left;
+}
+
+.boxBot h2 {
+	background: lightblue;
+	height: 44px;
+	line-height: 44px; /* căn chữ ra giữa*/
+	margin-bottom: 3px;
+	margin-top: 0px;
+	padding-left: 10px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.boxBot a h3 {
+	font-weight: bold;
+	margin-top: 0px;
+	font-size: 13px;
+}
+
+/* Of pagination*/
+.btn {
+	border: none;
+	outline: none;
+	padding: 10px 16px;
+	background-color: #f1f1f1;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.activePanation, .btn:hover {
+	background-color: #666;
+	color: white;
+}
+
+
+
+
+
+
+/* */
+@media all and (min-width: 320px) {
+	.boxSanPham {
+		background: white;
+		width: 98%;
+		height: 295px;
+		margin: 3px 2px 3px 2px;
+		border: 1px solid #dfdfdf;
+		float: left;
+	}
+	.boxImageSP {
+		height: 200px;
+		width: 100%;
+		float: left;
+	}
+	.boxImageSP img {
+		height: 200px;
+		width: 100%;
+		padding: 15px 10px 10px 10px;
+		margin: auto;
+		transition: all ease 300ms;
+	}
+}
+
+@media all and (min-width: 430px) {
+		.boxSanPham {
+		background: white;
+		width: 49%;
+		height: 295px;
+		margin: 3px 2px 3px 2px;
+		border: 1px solid #dfdfdf;
+		float: left;
+	}
+	.boxImageSP {
+		height: 200px;
+		width: 100%;
+		float: left;
+	}
+	.boxImageSP img {
+		height: 200px;
+		width: 100%;
+		padding: 15px 10px 10px 0px;
+		margin: auto;
+		transition: all ease 300ms;
+	}
+	
+	.col-md-3 {
+		width: 100% !important;
+	}
+}
+
+/* Dành cho máy tính bảng chiều dọc */
+@media all and (min-width: 600px) {
+	.boxSanPham {
+		background: white;
+		width: 32.6%;
+		height: 295px;
+		margin: 3px 2px 3px 2px;
+		border: 1px solid #dfdfdf;
+		float: left;
+	}
+	.boxImageSP {
+		height: 200px;
+		width: 100%;
+		float: left;
+	}
+	.boxImageSP img {
+		height: 200px;
+		width: 100%;
+		padding: 15px 10px 10px 0px;
+		margin: auto;
+		transition: all ease 300ms;
+	}
+	
+	.col-md-3 {
+		width: 100% !important;
+	}
+}
+
+
+
+/* Dành cho máy tính bảng chiều ngang */
+@media all and (min-width: 992px) {
+	.boxSanPham {
+		background: white;
+		width: 24.4%;
+		height: 295px;
+		margin: 3px 2px 3px 2px;
+		border: 1px solid #dfdfdf;
+		float: left;
+	}
+	.boxImageSP {
+		height: 200px;
+		width: 100%;
+		float: left;
+	}
+	.boxImageSP img {
+		height: 200px;
+		width: 100%;
+		padding: 15px 10px 10px 0px;
+		margin: auto;
+		transition: all ease 300ms;
+	}
+	
+	.col-md-3 {
+		width: 25% !important;
+		padding-left: 0px !important;
+	}
+}
+
+/* Dành cho màn hình desktop */
+@media all and (min-width: 1200px) {
+		.boxSanPham {
+		background: white;
+		width: 24.4%;
+		height: 295px;
+		margin: 3px 2px 3px 2px;
+		border: 1px solid #dfdfdf;
+		float: left;
+	}
+	.boxImageSP {
+		height: 200px;
+		width: 100%;
+		float: left;
+	}
+	.boxImageSP img {
+		height: 200px;
+		width: 100%;
+		padding: 15px 10px 10px 0px;
+		margin: auto;
+		transition: all ease 300ms;
+	}
+	
+	.col-md-3 {
+		width: 31% !important;
+		padding-left: 0px !important;
+	}
+}

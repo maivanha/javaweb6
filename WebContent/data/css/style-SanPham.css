@@ -1,0 +1,164 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+	
+}
+
+h5 {
+    font-weight: none;
+}
+
+#content {
+    background: white;
+}
+
+#content h1{
+    font-size: 24px;
+    color: #333;
+    line-height: 40px;
+    font-weight: none;
+    margin-left: 10px;
+}
+
+#content p {
+    text-align: justify;
+    padding: 0px 60px 0px 60px;
+}
+
+#content .picture {
+    background-color: white;
+    width: 100%;
+    height: 440px;
+    float: left;
+}
+
+#content .picture img {
+    display: block;
+    width: 280px;
+    height: 300px;
+    padding-top: 15px;
+    margin: auto;
+
+}
+
+#content .boxitem{
+    width: 400px;
+    height: 110px;
+}
+
+#content .item1{
+    background: white;
+    width: 60px;
+    height: 94px;
+    padding-top: 3px;
+    margin-left: 60px;
+    margin-top: 10px;
+    float: left;
+}
+
+#content .item1 img{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
+    padding: 8px 8px 8px 8px;
+    margin-top: 3px;
+    margin-left: 6px;   
+}
+
+#content .item1 h5{
+    font-size: 11px;
+    color: #333;
+    margin-left: 9px;
+}
+
+#content .item2{
+    background: white;
+    width: 60px;
+    height: 94px;
+    padding-top: 3px;
+    margin-left: 6px;
+    margin-top: 10px;
+    float: left;
+}
+
+#content .item2 img{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
+    padding: 8px 8px 8px 8px;
+    margin-top: 3px;
+    margin-left: 6px;   
+}
+
+#content .item2 h5{
+    font-size: 11px;
+    color: #333;
+    margin-left: 9px;
+}
+
+#content .item3{
+    background: white;
+    width: 60px;
+    height: 94px;
+    padding-top: 3px;
+    margin-left: 6px;
+    margin-top: 10px;
+    float: left;
+}
+
+#content .item3 img{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
+    padding: 8px 8px 8px 8px;
+    margin-top: 3px;
+    margin-left: 6px;   
+}
+
+#content .item3 h5{
+    font-size: 11px;
+    color: #333;
+    margin-left: 9px;
+}
+
+#content .item4{
+    background: white;
+    width: 60px;
+    height: 94px;
+    padding-top: 3px;
+    margin-left: 6px;
+    margin-top: 10px;
+    float: left;
+}
+
+#content .item4 img{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
+    padding: 8px 8px 8px 8px;
+    margin-top: 3px;
+    margin-left: 6px;   
+}
+
+#content .item4 h5{
+    font-size: 11px;
+    color: #333;
+    margin-left: 9px;
+}
+
+
+.description {
+    min-height: 300px;
+    width: 100%;
+    background-color: white;
+    margin-top: 15px;
+}
+

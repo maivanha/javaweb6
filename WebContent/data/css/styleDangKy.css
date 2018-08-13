@@ -1,0 +1,80 @@
+* {
+	font-family: Tahoma;
+	font-size: 13px;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+body {
+	width: 100%;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#register {
+	height: 80%;
+}
+
+#register .mLeft {
+    position: absolute;
+	width: 450px;
+    min-height: 360px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+#register .mLeft input[type="text"], input[type="password"]
+{
+	border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+}
+
+#register .inputText
+{
+	border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+}
+
+#register .mLeft table {
+	position: absolute;
+	color: white;
+	top: 34;
+    left: 0;
+}
+
+caption {
+	font-size: 25px;
+}
+
+#register .mLeft table td{
+	font-size: 15px;
+}
+
+.mLeft h1{
+    margin: -54px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+
